@@ -24,6 +24,7 @@ p {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+    font-weight: light;
 }
 
 .hero-main{
@@ -63,10 +64,11 @@ p {
     background-color: #3882F6;
     font-weight: bold;
     height: 50px;
-    width: 200px;
+    width: 150px;
     padding: 0px;
     border: 0px;
     border-radius: 10px;
+    margin-top: 15px;
 }
 
 .text-img{
@@ -77,8 +79,8 @@ p {
 }
 
 .img-placeholder{
-    width: 500px;
-    height: 400px;
+    width: 800px;
+    height: 300px;
     opacity: 70%;
     background: darkgray;
     color: white;
@@ -154,20 +156,36 @@ p {
     color: #1F2937
 }
 
-.footer{
-    display:flex;
-    padding: 0px 250px 75px;
-    background-color: #1F2937;
-}
-
-.footer p{
-    justify-self: center;
-    place-self: center;
-}
 
 .information-header{
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
     padding: 40px;
+}
+
+.sign-up-section{
+    display:flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-up-container{
+    background-color: #3882F6;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    margin: 100px;
+    padding: 40px;
+    width: 800px;
+    gap: 15px;
+}
+
+.footer{
+    display:flex;
+    padding: 30px 0px;
+    background-color: #1F2937;
+    justify-content: center;
 }
