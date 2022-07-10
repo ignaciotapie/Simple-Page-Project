@@ -39,14 +39,17 @@ p {
     background-color: #1F2937;
     display:flex;
     flex-direction: column;
+    flex: 0 1 auto;
     gap: 100px;
     justify-content: space-between;
-    padding: 0px 250px 75px;
+    padding: 0px 20% 10%;
 }
 
 .header-container{
     display:flex;
+    flex: 1;
     justify-content: space-between;
+    gap: 15px;
 }
 
 .right-links{
@@ -57,6 +60,8 @@ p {
 
 .header-content{
     display:flex;
+    flex: 0;
+    width: 100%;
     justify-content: space-between;
 }
 
@@ -79,7 +84,7 @@ p {
 }
 
 .img-placeholder{
-    width: 800px;
+    width: 700px;
     height: 300px;
     opacity: 70%;
     background: darkgray;
@@ -109,6 +114,7 @@ p {
     display:flex;
     flex: 1;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 50px;
 }
 
